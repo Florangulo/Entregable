@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Mi familia se compone de: madre, padre, hermano y el mejor perro del mundo</p>
+    <p>Sus nombres son: {{mum}}, {{dad}}, {{bro}}, {{dog}}</p>
+    <p>La edad de cada uno respectivamente es: </p>
+    {% for edad in ages %}
+    {{edad}}
+    <br>
+    {%endfor%}
+</body>
+</html>
